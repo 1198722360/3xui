@@ -5,6 +5,6 @@ echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/docke
 sudo apt update
 sudo apt-get update
 
-sudo apt install docker-ce docker-ce-cli containerd.io
+sudo apt install docker-ce docker-ce-cli containerd.io -y
 
-sudo apt-get install bash-completion
+sudo apt-get install bash-completion -y
